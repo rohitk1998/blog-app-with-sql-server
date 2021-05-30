@@ -1,0 +1,5 @@
+{
+    "AddPostTags":"insert into [Kaspro_Blog].[dbo].[postTags] (tagname,postId,createddate,posttitle,postcontent,postcontimage,creatername,createrimage,createrid) values (@tagname,@postId,@createddate,@posttitle,@postcontent,@postcontimage,@creatername,@createrimage,@createrid)",
+    "GetAllTags":"select * from [Kaspro_Blog].[dbo].[postTags]",
+    "GetTagsRelatedPostByTag":"select * from [Kaspro_Blog].[dbo].[posttags] where tagname = @tagname"
+}

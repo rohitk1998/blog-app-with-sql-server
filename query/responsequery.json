@@ -1,0 +1,4 @@
+{
+    "AddNewResponseToCommentByUser":"insert into [Kaspro_Blog].[dbo].[comment_responses] (userid,userimage,username,commentid,responsetext,responsetype,responsedate,status) values (@userid,@userimage,@username,@commentid,@responsetext,@responsetype,@responsedate,@status)",
+    "GetAllResponseByCommentId":"select * from [Kaspro_Blog].[dbo].[comment_responses] where commentid = @commentid"
+}

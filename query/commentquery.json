@@ -1,0 +1,4 @@
+{
+    "AddCommentByUserOnPosts":"INSERT INTO [Kaspro_Blog].[dbo].[user_comments] (postId,userid,userimage,username,commenttext,status,commentcreatedon) VALUES (@postId,@userid,@userimage,@username,@commenttext,@status,@commentcreatedon)",
+    "GetAllCommentsByPostId":"Use Kaspro_Blog ; select * from [dbo].[user_comments] where postId = @postId"
+}

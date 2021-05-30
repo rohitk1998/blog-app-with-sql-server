@@ -1,0 +1,5 @@
+{
+    "getAllProduct" : "Use ClassDB ; SELECT TOP(500) * FROM [dbo].[Products]",
+    "addNewProduct" :"Use ClassDB ; INSERT INTO [dbo].[Products] (productId , productName , productCategory , productPrice) VALUES (@productId,@productName,@productCategory,@productPrice) ",
+    "deleteProduct" : "Use ClassDB ; DELETE FROM [dbo].[Products] WHERE  productId = @productId"
+}

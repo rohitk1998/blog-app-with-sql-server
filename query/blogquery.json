@@ -1,0 +1,7 @@
+{
+    "AddNewPost":"Use Kaspro_Blog ; INSERT INTO [dbo].[Blogs] (postTitle,postContent,postContentImage,createrId,createrName,createrTypeName,createrImage,createdDate,statusofpost) VALUES (@postTitle,@postContent,@postContentImage,@createrId,@createrName,@createrTypeName,@createrImage,@createdDate,@statusofpost)",
+    "GetAllPosts":"Use Kaspro_Blog ; SELECT * FROM [dbo].[Blogs]",
+    "GetSpecifiedPost":"Use Kaspro_Blog ; SELECT * FROM  [dbo].[Blogs] WHERE postId = @postId",
+    "getIdOfLastInsertedPost":"SELECT * FROM [Kaspro_Blog].[dbo].[Blogs]",
+    "UpdatePostStatus":"UPDATE [Kaspro_Blog].[dbo].[Blogs] SET statusofpost = @statusofpost WHERE postId = @postId"
+}							

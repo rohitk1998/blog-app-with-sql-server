@@ -1,0 +1,5 @@
+{
+    "postLikesByUserAndPost":"use Kaspro_Blog ; insert into [dbo].[likes] (postId,userid) values (@postId,@userid)",
+    "getALLLikesByPost":"use Kaspro_Blog ; select * from [dbo].[likes] where postId = @postId",
+    "deleteLikeByUser":"use Kaspro_Blog  ;delete from [dbo].[likes] where postId = @postId and userid = @userid"
+}

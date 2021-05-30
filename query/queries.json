@@ -1,0 +1,6 @@
+{
+    "getAllUser" : "Use Kaspro_Blog ; SELECT TOP(500) * FROM [dbo].[registerUser]",
+    "addNewUser" :"Use Kaspro_Blog ; INSERT INTO [dbo].[registerUser] (firstname,lastname,gender,email,password,image,role,dateofbirth,registereddate) VALUES (@firstname,@lastname, @gender,@email,@password,@image,@role,@dateofbirth,@registereddate)",
+    "deleteUser" : "Use Kaspro_Blog ; DELETE FROM [dbo].[registerUser] WHERE name = @userName",
+    "updateUserDetails" : "Use Kaspro_Blog ; UPDATE [dbo].[registerUser] SET password = @newPassword WHERE name = @userName"
+}

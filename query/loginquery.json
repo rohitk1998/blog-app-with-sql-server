@@ -1,0 +1,3 @@
+{
+    "getUserLoggedIn" : " use Kaspro_Blog ; select * from [dbo].[registerUser] where email=@email and password =@password"
+}
